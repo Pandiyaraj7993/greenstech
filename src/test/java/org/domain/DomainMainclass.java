@@ -2,6 +2,7 @@ package org.domain;
 
 import java.util.Date;
 
+import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,5 +44,9 @@ static WebDriver driver;
 		btnClick(p.getTshirt());
 	}
 	
+private void sysout() {
+	// TODO Auto-generated method stub
+System.out.println("pandiya");
+}
 
 }
